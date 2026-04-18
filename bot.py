@@ -134,7 +134,7 @@ def init_database():
                   username TEXT,
                   referral_code TEXT UNIQUE,
                   referrer_id INTEGER,
-                  limit INTEGER DEFAULT 4,
+                  user_limit INTEGER DEFAULT 4,,
                   verified INTEGER DEFAULT 0,
                   created_at TEXT,
                   banned INTEGER DEFAULT 0)''')
